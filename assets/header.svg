@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-label="Amani Hassani, Applied AI and Machine Learning Engineering. Open to a 6-month PFE internship in 2027.">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#060d1a"/><stop offset="1" stop-color="#0d2233"/></linearGradient>
+  <radialGradient id="glowA" cx="0.15" cy="0.2" r="0.6"><stop offset="0" stop-color="#3fd6c1" stop-opacity="0.16"/><stop offset="1" stop-color="#3fd6c1" stop-opacity="0"/></radialGradient>
+  <radialGradient id="glowB" cx="0.9" cy="0.9" r="0.6"><stop offset="0" stop-color="#8b9cff" stop-opacity="0.14"/><stop offset="1" stop-color="#8b9cff" stop-opacity="0"/></radialGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3fd6c1"/><stop offset="0.5" stop-color="#5ee0ff"/><stop offset="1" stop-color="#8b9cff"/></linearGradient>
+  <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.5" stop-color="#fff" stop-opacity="0.22"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#ffffff"/><stop offset="0.42" stop-color="#ffffff"/><stop offset="0.5" stop-color="#3fd6c1"/><stop offset="0.58" stop-color="#ffffff"/><stop offset="1" stop-color="#ffffff"/>
+    <animate attributeName="x1" values="-1.2;1" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="-0.2;2" dur="5s" repeatCount="indefinite"/>
+  </linearGradient>
+</defs>
+<style>.float{animation:fl 7s ease-in-out infinite}@keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}.blink{animation:bl 1s steps(1) infinite}@keyframes bl{50%{opacity:0}}.dot{animation:pu 2.4s ease-in-out infinite}@keyframes pu{0%,100%{opacity:.35}50%{opacity:1}}.cover{animation-name:ty;animation-fill-mode:forwards}@keyframes ty{to{transform:translateX(var(--w))}}
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<rect width="1200" height="400" rx="20" fill="url(#bg)"/><rect width="1200" height="400" rx="20" fill="url(#glowA)"/><rect width="1200" height="400" rx="20" fill="url(#glowB)"/>
+<line x1="70" y1="330" x2="140" y2="300" stroke="#1f4d5e" stroke-width="1.5"/><line x1="140" y1="300" x2="210" y2="345" stroke="#1f4d5e" stroke-width="1.5"/><line x1="210" y1="345" x2="290" y2="318" stroke="#1f4d5e" stroke-width="1.5"/><line x1="290" y1="318" x2="360" y2="350" stroke="#1f4d5e" stroke-width="1.5"/><line x1="360" y1="350" x2="430" y2="312" stroke="#1f4d5e" stroke-width="1.5"/><circle class="dot" style="animation-delay:0.00s" cx="70" cy="330" r="4" fill="#3fd6c1"/><circle class="dot" style="animation-delay:0.35s" cx="140" cy="300" r="4" fill="#3fd6c1"/><circle class="dot" style="animation-delay:0.70s" cx="210" cy="345" r="4" fill="#3fd6c1"/><circle class="dot" style="animation-delay:1.05s" cx="290" cy="318" r="4" fill="#3fd6c1"/><circle class="dot" style="animation-delay:1.40s" cx="360" cy="350" r="4" fill="#3fd6c1"/><circle class="dot" style="animation-delay:1.75s" cx="430" cy="312" r="4" fill="#3fd6c1"/><text x="60" y="118" font-family="Georgia, 'Times New Roman', serif" font-size="64" fill="url(#nameGrad)">Amani Hassani</text>
+<text x="62" y="160" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" letter-spacing="1.6" fill="#9fd8cf">APPLIED AI · MACHINE LEARNING ENGINEERING</text>
+<text x="62" y="205" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#d6e4ee">I build models that survive data they have never seen,</text>
+<text x="62" y="230" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#d6e4ee">then ship them as tested, secure software.</text>
+<g>
+  <rect x="62" y="256" width="330" height="38" rx="19" fill="none" stroke="url(#edge)" stroke-width="1.6"/>
+  <circle class="dot" cx="84" cy="275" r="5" fill="#3ddc84"/>
+  <text x="98" y="281" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#ffffff">Open to a 6-month PFE · 2027</text>
+</g><g class="float">
+<rect x="560" y="46" width="600" height="300" rx="14" fill="#0a1424" stroke="#1d3a50"/>
+<rect x="560" y="46" width="600" height="34" rx="14" fill="#0f1d33"/><rect x="560" y="66" width="600" height="14" fill="#0f1d33"/>
+<circle cx="582" cy="63" r="6" fill="#ff5f57"/><circle cx="602" cy="63" r="6" fill="#febc2e"/><circle cx="622" cy="63" r="6" fill="#28c840"/>
+<text x="860.0" y="68" text-anchor="middle" font-family="'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" fill="#6f86a3">amani@esprit: ~</text>
+<clipPath id="term"><rect x="560" y="46" width="600" height="300" rx="14"/></clipPath><g clip-path="url(#term)"><text x="584" y="118" font-family="'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="15" fill="#7f95b2">~ $ whoami</text><rect class="cover" style="--w:98px;animation-delay:0.40s;animation-duration:0.26s;animation-timing-function:steps(10)" x="582" y="101" width="98" height="25" fill="#0a1424"/>
+<text x="584" y="148" font-family="'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="15" fill="#ffffff">Amani Hassani · Data Science engineering @ ESPRIT</text><rect class="cover" style="--w:449px;animation-delay:1.00s;animation-duration:1.29s;animation-timing-function:steps(49)" x="582" y="131" width="449" height="25" fill="#0a1424"/>
+<text x="584" y="186" font-family="'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="15" fill="#7f95b2">~ $ cat principle.txt</text><rect class="cover" style="--w:197px;animation-delay:2.60s;animation-duration:0.55s;animation-timing-function:steps(21)" x="582" y="169" width="197" height="25" fill="#0a1424"/>
+<text x="584" y="216" font-family="'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="15" fill="#3fd6c1">lock the model first. then test it on unseen data.</text><rect class="cover" style="--w:458px;animation-delay:3.20s;animation-duration:1.32s;animation-timing-function:steps(50)" x="582" y="199" width="458" height="25" fill="#0a1424"/>
+<text x="584" y="254" font-family="'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="15" fill="#7f95b2">~ $ ./pfe --status</text><rect class="cover" style="--w:170px;animation-delay:4.90s;animation-duration:0.47s;animation-timing-function:steps(18)" x="582" y="237" width="170" height="25" fill="#0a1424"/>
+<text x="584" y="284" font-family="'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="15" fill="#3ddc84">OPEN · 6 months · Tunisia Jan 2027 · Europe Apr 2027</text><rect class="cover" style="--w:476px;animation-delay:5.50s;animation-duration:1.37s;animation-timing-function:steps(52)" x="582" y="267" width="476" height="25" fill="#0a1424"/>
+</g><rect class="blink" x="584" y="308" width="9" height="17" fill="#3fd6c1"/></g>
+</svg>
